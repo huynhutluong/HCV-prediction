@@ -4,7 +4,7 @@ from PatientModel.PatientModel import PatientModel
 import pickle
 
 # Load the trained model
-with open('dectree_HCV_model.pkl', 'rb') as file:
+with open('HCV_model.pkl', 'rb') as file:
     loaded_model = pickle.load(file)
 
 # Create a FastAPI app
